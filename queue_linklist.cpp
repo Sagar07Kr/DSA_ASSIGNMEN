@@ -78,25 +78,25 @@ int main(){
 	Queue q;
 	q.push(10);
 	cout<<q.front()<<endl;
-	// q.push(20);
-	// q.push(30);
-	// q.push(40);
-	// q.push(50);
-	// q.print();//10 20 30 40 50
-	// cout<<"size: "<<q.Size()<<endl;
-	// q.pop();q.pop();
-    // q.print();//30 40 50
-    // cout<<q.Size()<<endl;
-    // cout<<"front element: "<<q.front()<<endl;
-    // cout<<"Empty: "<<q.empty()<<endl;
-    // q.pop();q.pop();
-    // q.print();//
-    // cout<<q.Size()<<endl;
-    // cout<<"front element: "<<q.front()<<endl;
-    // cout<<"Empty: "<<q.empty()<<endl;
-    // q.pop();
-    // q.print();//
-    // cout<<q.Size()<<endl;
-    // cout<<"front element: "<<q.front()<<endl;
-    // cout<<"Empty: "<<q.empty()<<endl;
+	q.push(20);
+	q.push(30);
+	q.push(40);
+	q.push(50);
+	q.print();//10 20 30 40 50
+	cout<<"size: "<<q.Size()<<endl;
+	q.pop();q.pop();
+    q.print();//30 40 50
+    cout<<q.Size()<<endl;
+    cout<<"front element: "<<q.front()<<endl;
+    cout<<"Empty: "<<q.empty()<<endl;
+    q.pop();q.pop();
+    q.print();//
+    cout<<q.Size()<<endl;
+    cout<<"front element: "<<q.front()<<endl;
+    cout<<"Empty: "<<q.empty()<<endl;
+    q.pop();
+    q.print();//
+    cout<<q.Size()<<endl;
+    cout<<"front element: "<<q.front()<<endl;
+    cout<<"Empty: "<<q.empty()<<endl;
 }
